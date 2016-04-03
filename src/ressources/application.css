@@ -1,0 +1,34 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto-Regular.ttf");
+}
+
+.root{
+	-fx-background-color : rgb(18,165,244);
+	-fx-font-family: Roboto;
+}
+
+.button{
+ 	-fx-font-size: 14px;
+  	-fx-text-fill: #333333;
+	-fx-font-family: 'Roboto';
+	-fx-border-radius: 4px;
+  	-fx-background-radius: 4px;
+  	-fx-padding: 10 20;
+  	-fx-text-fill: #ffffff;
+  	-fx-background-color: #428bca;
+  	-fx-border-color: #357ebd;
+  	-fx-cursor: hand;
+}
+.button:hover {
+  -fx-text-fill: #ffffff;
+  -fx-background-color: #3276b1;
+  -fx-border-color: #285e8e;
+}
+.button:disabled {
+  -fx-background-color: #428bca;
+  -fx-border-color: #357ebd;
+}
+
+
